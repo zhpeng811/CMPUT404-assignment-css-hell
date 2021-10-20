@@ -1,15 +1,25 @@
-.header {
-  padding: 20px;
-  text-align: center;
-  background-image: url(assets/header_background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  color: black;
-  font-size: 30px;
-  border: none;
+body {
+    /* a rainbow */
+    background: linear-gradient(
+        90deg, 
+        red, 
+        orange, 
+        yellow, 
+        green,
+        blue,
+        indigo,
+        violet
+    )
 }
 
+.header {
+    padding: 20px;
+    text-align: justify;
+    color: black;
+    font-size: 30px;
+    border: none;
+}
+  
 .intro {
     display: inline-block;
     width: 70%;
@@ -17,7 +27,9 @@
 }
 
 p {
+    margin-left: 50px;
     padding-bottom: 20px;
+    color: white;
 }
 
 h3, h4, ul {
@@ -34,12 +46,19 @@ ul {
 }
 
 .points {
-    background-color: whitesmoke;
+    background-color: fuchsia;
 }
 
 .photo {
     width: 100%;
     margin-bottom: 20px;
+    animation: spin 8s alternate infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .center {
@@ -49,24 +68,24 @@ ul {
 /* topnav css from: https://www.w3schools.com/howto/howto_js_topnav.asp */
 .topnav {
     overflow: hidden;
-    background-color: dimgrey;
+    background-color: navajowhite;
 }
-  
+
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
+}
+
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
-  
+
 .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    background-color: rebeccapurple;
+    color: black;
 }

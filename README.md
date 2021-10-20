@@ -31,8 +31,14 @@ For all three gutenberg HTML files:
 
 Citations
 ==================
-the old paper background is obtained from https://www.freecreatives.com/textures/old-paper-texture.html
-Cover images:
+### Assets ###
+gutenberg/assets/old-paper-background.jpg is obtained from https://www.freecreatives.com/textures/* old-paper-texture.html
+homepage/assets/header-background.png is obtained from https://dvbsinc.com/quote/workshops-header-background/
+
+### Code ###
+part of the navigation bar css was obtained from https://www.w3schools.com/howto/howto_js_topnav.asp
+
+### Book Cover images ###
 1. https://www.gutenberg.org/ebooks/11
 2. https://www.gutenberg.org/ebooks/66536
 3. https://www.gutenberg.org/ebooks/2814
