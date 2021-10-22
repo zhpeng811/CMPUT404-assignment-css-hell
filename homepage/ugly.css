@@ -26,7 +26,15 @@ body {
     padding-left: 50px;
 }
 
+h2 {
+    border-radius: 5em;
+    border: 3px solid rebeccapurple;
+}
+
 p {
+    border-radius: 10em;
+    border: 1px solid wheat;
+    font-size: 150%;
     margin-left: 50px;
     padding-bottom: 20px;
     color: white;
